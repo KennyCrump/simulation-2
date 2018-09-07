@@ -1,0 +1,38 @@
+.House{
+    width: 52.5vw;
+    height: 200px;
+    background-color: #DEDEDE;
+    /* height: 80px; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.house-img{
+    height: 180px;
+    width: 270px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.house-info{
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-content: flex-start; */
+    align-items: flex-start;
+    padding-top: 15px;
+}
+.house-info-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    /* margin-top: 13px; */
+    margin-bottom: 23px;
+}
+.delete-button{
+    align-self: baseline;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-right: 1px;
+}

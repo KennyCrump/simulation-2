@@ -1,0 +1,11 @@
+ALTER TABLE houses
+ADD COLUMN img TEXT;
+
+ALTER TABLE houses
+ADD COLUMN mortgage DECIMAL;
+
+ALTER TABLE houses
+ADD COLUMN rent DECIMAL;
+
+ALTER TABLE houses
+DROP COLUMN unnecessary_column;
